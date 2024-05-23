@@ -5,9 +5,6 @@ const data = [
   { name: "narmin", isStudent: false, age: 20 },
   { name: 'lale', isStudent: true, age: 22 }
 ];
-const StudentList = () => {
-
-}
 
 const StudentList = () => {
   const [selectedStudent, setSelectedStudent] = useState(null);
